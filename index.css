@@ -1,0 +1,32 @@
+/* Base font */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Shared section card style */
+.custom-card {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border: 2px solid #ec4899; /* Tailwind pink-500 */
+}
+
+/* Education cards */
+.edu-card {
+  background: #fbcfe8; /* light pink */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.edu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(236, 72, 153, 0.4);
+}
